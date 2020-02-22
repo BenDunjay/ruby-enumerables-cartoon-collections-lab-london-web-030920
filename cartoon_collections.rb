@@ -34,7 +34,7 @@ def find_the_cheese(contains_cheddar)
 while counter < contains_cheddar.length do 
   if
 contains_cheddar.include?(cheese_types[counter])
-cheese_types[counter]
+return cheese_types[counter]
 end
 counter += 1
 end
